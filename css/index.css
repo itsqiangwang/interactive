@@ -53,10 +53,18 @@ nav{
   padding-right: 40px;
 }
 
+nav summary{
+  text-decoration: underline;
+}
+
+nav summary:hover{
+  cursor: pointer;
+}
+
 ul{
   /* display: flex; */
   list-style-type: none;
-  /* margin-left: 16px; */
+  margin-top: 20px;
   /* border: 1px solid red; */
 }
 

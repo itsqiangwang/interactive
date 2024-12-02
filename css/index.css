@@ -57,7 +57,8 @@ nav summary{
   text-decoration: underline;
 }
 
-nav summary:hover{
+nav summary:hover,
+nav summary ul:hover{
   cursor: pointer;
 }
 
@@ -72,6 +73,10 @@ ul{
   list-style-type: none;
   margin-top: 20px;
   /* border: 1px solid red; */
+}
+
+li{
+  display: inline;
 }
 
 li span {
@@ -159,7 +164,8 @@ body > figure > figcaption {
   footer .project-year::before,
 .project-year::after,
 .project-specs::before,
-.project-credit::before{
+.project-credit::before,
+li:not(:last-of-type):after{
     content: "• ";
   }
 
